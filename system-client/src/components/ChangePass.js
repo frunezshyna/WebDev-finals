@@ -84,7 +84,7 @@ export default function ChangePass({ showModal, setShowModal }) {
 
             <Modal.Footer>
                 <Button variant="secondary" className="w-25 rounded-pill" onClick={() => setShowModal(false)}>Close</Button>
-                <Button variant="warning" className="w-25 rounded-pill" onClick={handlePasswordChange}>Submit</Button>
+                <Button variant="warning" className="w-25 rounded-pill" onClick={handlePasswordChange}>Update</Button>
             </Modal.Footer>
         </Modal>
     );
