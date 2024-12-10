@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Container, Col, Row } from "react-bootstrap"
+import { Container, Col, Row } from "react-bootstrap";
 import CourseCard from "../components/CourseCard";
 
 export default function Course(){
