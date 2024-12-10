@@ -1,5 +1,5 @@
-import { Button, Col, Row } from "react-bootstrap"
-import { NavLink } from "react-router-dom"
+import { Button, Col, Row } from "react-bootstrap";
+import { NavLink } from "react-router-dom";
 
 export default function Banner(){
     return(
