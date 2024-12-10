@@ -1,6 +1,5 @@
-import { use } from "react";
-import { useState } from "react"
-import { Container, Form, Button, Image } from "react-bootstrap"
+import { useState } from "react";
+import { Container, Form, Button, Image } from "react-bootstrap";
 import Swal from "sweetalert2";
 
 
@@ -11,7 +10,6 @@ export default function AddCourse(){
     const [name, setName] = useState("");
     const [description, setDescription] = useState("");
     const [price, setPrice] = useState("");
-    const [img, setImg] = useState("none");
 
     function addCourse(e){
         e.preventDefault();
